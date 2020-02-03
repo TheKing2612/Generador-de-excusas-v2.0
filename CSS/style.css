@@ -1,0 +1,45 @@
+body
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  vertical-align: middle;
+  background-color: red;
+}
+#mainContent {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: xx-large;
+	font-weight: bold;
+	background-color: rgb(104, 104, 104);
+	border-radius: 4px;
+	padding: 10px;
+	text-align: center;
+}
+.cuadro
+{
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Major Mono Display', monospace;
+}
+.btn{
+	border-radius: 4px;
+	border: thin solid rgb(0, 0, 0);
+	padding: 5px;
+	background-color: rgb(253, 0, 0);
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	color: #000000;
+	width: 75px;
+}
+.btn:hover {
+	border: thin solid rgb(255, 255, 255);
+	background-color: rgb(73, 73, 73);
+	color: #000000;
+	cursor: pointer;
+}
+.btn:active {
+	border: thin solid #99CC00;
+	background-color: #F5FFD2;
+	color: #669900;
+	cursor: pointer;
+} 
